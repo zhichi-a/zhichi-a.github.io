@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+
+		}
+
+		.outer{
+            width:600px;
+            height:600px;
+            margin:100px auto;
+            border:0px solid black;
+          
+            transform-style:preserve-3d;
+            
+         
+            
+        }
+        
+        
+        .cotent:hover{
+
+        	width:600px;
+            height:600px;
+            transform-style:preserve-3d;
+            transition: all 36s linear 1s ;
+             transform: rotate3d(1,1,1,3600deg)  /*rotateY(3600deg)  rotateX(3600deg)*/
+             scale(2,2);
+
+
+           
+           
+
+
+           
+        }
+        .yezi{
+            width:300px;
+            height:300px;
+            border-top-right-radius:300px;
+            border-bottom-left-radius:300px;
+            background: no-repeat;
+             background-color: pink;
+
+        }
+           .yezi2{
+            width:300px;
+            height:300px;
+            border-top-left-radius:300px;
+            border-bottom-right-radius:300px;
+          background: no-repeat;
+             background-color: yellow;
+            transform:translate(300px,-300px);
+
+        }
+            .yezi3{
+            width:300px;
+            height:300px;
+            border-top-right-radius:300px;
+            border-bottom-left-radius:300px;
+            background: no-repeat;
+             background-color: springgreen;
+             transform:translate(300px,-300px);
+
+        }
+        .yezi4{
+            width:300px;
+            height:300px;
+            border-top-right-radius:300px;
+            border-bottom-left-radius:300px;
+            background: no-repeat;
+             background-color: skyblue;
+          
+             
+             transform:translate(0px,-600px) rotate(90deg);
+                             
+        }
+       
+        
+        
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<h1>你好</h1>
+	<h2>个人博客</h2>
+	<div class="outer">
+		<div class="cotent" >
+		<div class="yezi"  > </div>
+			<div class="yezi2"> </div>
+				<div class="yezi3"  > </div>
+					<div class="yezi4" ></div>
+
+		
+	
+    </div>
+</div>
+</body>
+</html>
